@@ -1,0 +1,22 @@
+checkpoint: ./runs/checkpoints/last.ckpt
+set: test
+sample_outdir: ./samples
+n_samples: 100
+sample_with_ground_truth_size: False
+device: cuda
+seed: 42
+sample: True
+postprocess: False
+reduce: reduce
+
+# Override training config parameters if necessary
+model_args:
+  
+  virtual_nodes: [0, 5]
+
+  train_params:
+    datadir: processed
+
+  eval_params:
+    eval_batch_size: 1
+  
