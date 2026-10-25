@@ -39,7 +39,9 @@ Download the following files from [here](https://drive.google.com/drive/folders/
 - `crossdocked_v1.1_rmsd1.0.tar.gz`
 - `crossdocked_pocket10_pose_split.pt`
 
-Download the processed dataset from here
+Download the processed dataset from [here](https://doi.org/10.5281/zenodo.23488264)
+
+- `processed`
 
 #### Prepare the dataset from scratch
 
@@ -96,7 +98,9 @@ Download the following files from [here](https://drive.google.com/drive/folders/
 - `PDBbind_v2020.tar.gz`
 - `PDBbind_pocket10_split.pt`
 
-Download the processed dataset from here
+Download the processed dataset from [here](https://doi.org/10.5281/zenodo.23488264)
+
+- `processedP`
 
 #### Prepare the dataset from scratch
 
